@@ -22,8 +22,6 @@ namespace Prog4
     public partial class PackageCalculator : Form
     {
         const int uoflZip = 40292;          //Stores UofL zip code, would need to be changed to local zip
-        
-
 
         //List holds GroundPackage objects
         List<GroundPackage> packageList = new List<GroundPackage>();
